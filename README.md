@@ -76,7 +76,7 @@ dan sententiae ferendae, et inimperium mihi dedit.!<br>
     </table>
 
 
-<h1 style="background-color: rgb(0, 128,128);color: #ffff00;">RGBMax</h1>
+<h1 style="background-color: rgb(0, 128,128);color: #ffffff;">RGBMax</h1>
 
 </body>
 </html>
