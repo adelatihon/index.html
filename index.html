@@ -275,26 +275,26 @@ td{
     <title>Chemical Engineering</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <style>
-        p:hover{
+        .nope:hover{
     color:darkkhaki;
     font-style: oblique;
 }
-p::before{
+.nope::before{
     content:"Yes!";
     background-color: darkorchid;
 }
-p::after{
+.nope::after{
     content:"no!";
     color:darkred;
 }
-p::selection{
+.nope::selection{
     background-color: blueviolet;
     color:peachpuff;
 }
     </style>
 </head>
 <body>
-    <div class="content">
+    <div class="nope">
         <h2>Pseudo-classes</h2>
     <p>Design chemical plant equipment and devise processes for manufacturing chemicals and products, such as gasoline, synthetic rubber, plastics, detergents, cement, paper, and pulp, by applying principles and technology of chemistry, physics, and engineering.</p>
    </div>
@@ -311,19 +311,19 @@ p::selection{
     <title>Chemical Engineering</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 <style>
-	p::first-line{
+	.content::first-line{
     color:red;
     font-style: italic;
 }
-p::first-letter{
+.content::first-letter{
     color:green;
     font-weight: bold;
 }
-p::selection{
+.content::selection{
     background-color: azure;
     font-style: oblique;
 }
-p::before{
+.content::before{
     content: "nope!";
     background-color: brown;
 }
