@@ -206,6 +206,60 @@ h2 {
 
 
 
+    <!DOCTYPE html>
+<html>
+	<head>
+		<title>Ballot</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            ul{
+    list-style:square;
+}
+body{
+    font-size:20px;
+}
+
+
+#math:hover::after{
+    color:blue;
+}
+
+
+#math:active::after{
+    background-color: PaleGreen;
+    content: " Hey";
+}
+#bio:hover::after{
+    color:Orange;
+}
+
+
+#bio:selection{
+    background-color: LightBlue;
+    content: " You";
+}
+#psy:hover::after{
+    color:DarkRed;
+}
+
+
+#psy:active{
+    background-color: DarkGreen;
+    content: " Go girl";
+}
+        </style>
+	</head>
+
+	<body>
+		<h1>School Subjects</h1>
+		
+		<ul>
+		    <li id="math">Mathematics</li>
+		    <li id="bio">Biology</li>
+		    <li id="phy">Physics</li>
+		</ul>
+	</body>
+</html>
 
 
 
