@@ -274,48 +274,37 @@ td{
 <head>
     <title>Chemical Engineering</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-	<style>
-		body{
-    font-size:15px;
+    <style>
+        p:hover{
+    color:darkkhaki;
+    font-style: oblique;
 }
-.header:hover::after{
-  background-color: darkslategray;
-  content:Engineer;
+p::before{
+    content:"Yes!";
+    background-color: darkorchid;
 }
-.header:active::after{
-      color:blanchedalmond;
+p::after{
+    content:"no!";
+    color:darkred;
 }
-
-  .content:active::after{
-        color:rgb(30, 64, 93);
-  }
-  .content:hover::after{
-    background-color:darkmagenta;
-font-size: 20px;  }
-  .footer:active::after{
-        font-family: Arial, Helvetica, sans-serif;
-  }
-  .footer:hover::after{
-    background-color: rgb(47, 57, 79);
-    font-style: italic;
-  }
-	</style>
+p::selection{
+    background-color: blueviolet;
+    color:peachpuff;
+}
+    </style>
 </head>
 <body>
-  <div class="header"> <h1>Your Job Title</h1></div>
     <div class="content">
         <h2>Description</h2>
     <p>Design chemical plant equipment and devise processes for manufacturing chemicals and products, such as gasoline, synthetic rubber, plastics, detergents, cement, paper, and pulp, by applying principles and technology of chemistry, physics, and engineering.</p>
-
-    <h2>Average Salary</h2>
-    <h1>Median wages(2022)-$51.09 hourly, $106,260 annual.</h1>
-    </div>
-     <div class="footer">
-          <p><a href="index.html">Back to Homepage</a></p>
-          <p><a href="jobinfo.html">Home</a></p>
    </div>
 </body>
 </html>
+
+
+
+
+
 
 
 
