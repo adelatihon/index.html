@@ -205,61 +205,70 @@ h2 {
 </html>
 
 
-
-    <!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
 	<head>
-		<title>Ballot</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <style>
-            ul{
-    list-style:square;
+		<title>Famous Artists</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<style>
+	th{
+    font-weight:bolder;
+    font-size:22px;
 }
-body{
-    font-size:20px;
+td{
+    color:white;
+
 }
-
-
-#math:hover::after{
-    color:blue;
+.renaissance{
+    background-color:DarkCyan;
 }
-
-
-#math:active::after{
-    background-color: PaleGreen;
-    content: " Hey";
+.impression{
+        background-color:MediumAquaMarine;
 }
-#bio:hover::after{
-    color:Orange;
+.cubism{
+        background-color:DarkSalmon;
 }
-
-
-#bio:selection::after{
-    background-color: LightBlue;
-    content: " You";
+.surrealism{
+        background-color:PaleGoldenRod;
 }
-#psy:hover::after{
-    color:DarkRed;
-}
-
-
-#psy:active::after{
-    background-color: DarkGreen;
-    content: " Go girl";
-}
-        </style>
+		</style>
 	</head>
 
 	<body>
-		<h1>School Subjects</h1>
+	    <h1>Art Time Period and Famous Artists</h1>
+	    
+		<table border="1">
+		    <tr>
+		        <th class="renaissance">Renaissance</th>
+		        <th class="impression">Impressionism</th>
+		        <th class="cubism">Cubism</th>
+		        <th class="surrealism">Surrealism</th>
+		    </tr>
+		    <tr>
+		        <td class="renaissance">Sandro Botticelli</td>
+		        <td class="impression">Claude Monet</td>
+		        <td class="cubism">Pablo Picasso</td>
+		        <td class="surrealism">Valentine Hugo</td>
+		    </tr>
+		    <tr>
+		        <td class="renaissance">Carlo Crivelli</td>
+		        <td class="impression">Ilya Repin</td>
+		        <td class="cubism">Juan Gris</td>
+		        <td class="surrealism">Albert Gleizes</td>
+		    </tr>
+		    <tr>
+		        <td class="renaissance">Jaume Huguet</td>
+		        <td class="impression">Tom Roberts</td>
+		        <td class="cubism">Frida Kahlo</td>
+		        <td class="surrealism">Louise Bourgeois</td>
+		    </tr>
+		    
+		</table>
 		
-		<ul>
-		    <li id="math">Mathematics</li>
-		    <li id="bio">Biology</li>
-		    <li id="phy">Physics</li>
-		</ul>
 	</body>
 </html>
+
+
 
 
 
